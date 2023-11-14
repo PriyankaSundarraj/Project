@@ -24,7 +24,7 @@ import base64
 
 
 
-st.set_page_config(page_icon="🤖",page_title='Chat_model',layout='wide')
+st.set_page_config(page_icon="🤖",page_title='Stream.ai',layout='wide')
 openai.api_key = st.sidebar.text_input("Please Enter your API key",placeholder='Please visit openai website for apikey',type='password')
 if openai.api_key:
     llm = OpenAI(api_token=openai.api_key)
